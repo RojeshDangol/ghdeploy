@@ -21,3 +21,6 @@ deploy:
      on:
          branch: master # Build only from master
      local_dir: ./dist/restructure #
+   - provider: heroku
+     api_key:
+       secure: "2f23c850-e9aa-4efd-9d64-82ac41afb23c"
