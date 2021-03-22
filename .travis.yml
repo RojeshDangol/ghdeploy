@@ -13,7 +13,8 @@ cache:
  
 script:
    - npm run build # Generates the dist folder with built angular app
- 
+   - npm start
+
 deploy:
    - provider: pages
      skip_cleanup: true # Prevent travis from cleaning out the branch before the deploy occurs
